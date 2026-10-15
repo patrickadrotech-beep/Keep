@@ -1,0 +1,26 @@
+name: samsung_notes_clone
+description: "Cross-platform notes app for Android and Windows with Google Drive sync and math solver."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_sign_in: ^6.2.1
+  googleapis: ^13.2.0
+  extension_google_sign_in_as_googleapis_auth: ^2.0.2
+  math_expressions: ^2.4.0
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  file_picker: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
